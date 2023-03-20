@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.btn-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn {
+    width: 30rem;
+    height: 8rem;
+    background-color: #ddd;
+    border-radius: 6rem;
+    position: relative;
+}
+
+.btn {
+    width: 50%;
+    height: 100%;
+    background-color: #322929;
+    border-radius: 6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    transition: margin-left .8s;
+}
+
+.btn.change {
+    top: 0;
+    left: 0;
+    margin-left: 15rem;
+}
